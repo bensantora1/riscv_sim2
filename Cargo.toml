@@ -1,0 +1,7 @@
+[package]
+name = "riscv_sim"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.1.6", features = ["derive"] }
