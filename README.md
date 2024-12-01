@@ -78,11 +78,7 @@ Executing instruction: jump to address 20
 CPU halted.
 ```
 ### Customization
-You can customize:
-
-Memory Size: Edit Memory::new(size) in main.rs.
----
-Cache Size: Edit Cache::new(size) in main.rs.
+You can customize:  Memory Size: Edit Memory::new(size) in main.rs. - and -  Cache Size: Edit Cache::new(size) in main.rs.
 
 ### License
 This project is licensed under the MIT License. See LICENSE for details.
