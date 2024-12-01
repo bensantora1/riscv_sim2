@@ -56,15 +56,14 @@ cargo run -- --file=<path_to_program_file>
 ```
 ### Example
 Given a program file example.riscv:
-
-text
-Copy code
+```text
 add 1 2 3       # x1 = x2 + x3
 sub 4 5 6       # x4 = x5 - x6
 load 7 10       # x7 = memory[10]
 store 7 15      # memory[15] = x7
 jump 20         # pc = 20
 halt            # Stop execution
+```
 Run:
 ```bash
 cargo run -- --file=example.riscv
@@ -82,8 +81,8 @@ CPU halted.
 You can customize:
 
 Memory Size: Edit Memory::new(size) in main.rs.
+---
 Cache Size: Edit Cache::new(size) in main.rs.
-
 
 ### License
 This project is licensed under the MIT License. See LICENSE for details.
