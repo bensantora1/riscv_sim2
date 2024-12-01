@@ -88,5 +88,5 @@ Cache Size: Edit Cache::new(size) in main.rs.
 This project is licensed under the MIT License. See LICENSE for details.
 
 ### Author
-Ben Santora
+Ben Santora - Cape Ann MA
 
