@@ -1,1 +1,19 @@
+# Ignore the entire target directory
 /target
+
+# Ignore debug and release builds
+**/debug
+**/release
+
+# Ignore Cargo.lock if this is a library, not a binary application
+Cargo.lock
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore temporary files and logs
+*.log
+*.tmp

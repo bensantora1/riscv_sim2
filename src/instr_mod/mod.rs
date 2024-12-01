@@ -1,3 +1,4 @@
+#[derive(Debug)] // Enables `Debug` trait for `Instruction`
 pub enum Instruction {
     Add(usize, usize, usize),
     Sub(usize, usize, usize),
