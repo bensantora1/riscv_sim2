@@ -1,6 +1,6 @@
 [package]
 name = "riscv_simulator"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 description = "A RISC-V simulator built in Rust, supporting basic arithmetic, memory, and control-flow instructions."
 repository = "https://github.com/bensantora1/riscv_simulator.git"
