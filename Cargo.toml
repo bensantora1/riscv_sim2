@@ -1,5 +1,5 @@
 [package]
-name = "riscv_sim"
+name = "riscv_simulator"
 version = "1.0.0"
 edition = "2021"
 description = "A RISC-V simulator built in Rust, supporting basic arithmetic, memory, and control-flow instructions."
