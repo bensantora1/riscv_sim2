@@ -2,6 +2,10 @@
 name = "riscv_sim"
 version = "1.0.0"
 edition = "2021"
+description = "A RISC-V simulator built in Rust, supporting basic arithmetic, memory, and control-flow instructions."
+repository = "https://github.com/bensantora1/riscv_simulator.git"
+license = "MIT"
+authors = ["Ben Santora <bensantora@proton.me>"]
 
 [dependencies]
 clap = { version = "4.1.6", features = ["derive"] }
