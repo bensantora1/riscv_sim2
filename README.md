@@ -1,7 +1,7 @@
 ### RISC-V Simulator
 
 ### Overview
-RISC-V Simulator is a command-line tool that simulates the execution of basic RISC-V assembly instructions. It allows you to:
+A command-line tool that simulates the execution of basic RISC-V assembly instructions, allowing you to:
 
 Simulate a CPU with 32 general-purpose registers.
 Manage memory operations, including loads and stores.
@@ -85,4 +85,5 @@ This project is licensed under the MIT License. See LICENSE for details.
 
 ### Author
 Ben Santora - Cape Ann MA
+* If my contribution has helped you with your project, please consider starring the repo at: https://github.com/bensantora1/riscv_simulator
 
